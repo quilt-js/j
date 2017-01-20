@@ -1,7 +1,7 @@
 {
-  "name": "j",
+  "name": "j-org",
   "version": "0.4.3",
-  "author": "sheetjs",
+  "author": "sheetjs, quilt-js",
   "description": "CLI tool for working with XLS/XLSX/XLSM/XLSB files",
   "keywords": [ "excel", "xls", "xlsx", "xlsm", "xlsb", "office", "spreadsheet" ],
   "bin": {
@@ -16,15 +16,15 @@
   "main": "./j",
   "dependencies": {
     "xlsjs": "~0.7.1",
-    "xlsx": "~0.7.11",
-    "harb": "~0.0.5",
+    "xlsx-org": "~0.8.2",
+    "harb-org": "~0.0.8",
     "concat-stream":"",
     "commander":""
   },
   "devDependencies": {
     "mocha":""
   },
-  "repository": { "type":"git", "url":"https://github.com/SheetJS/j.git" },
+  "repository": { "type":"git", "url":"https://github.com/quilt-js/j.git" },
   "scripts": {
     "test": "make mocha"
   },
